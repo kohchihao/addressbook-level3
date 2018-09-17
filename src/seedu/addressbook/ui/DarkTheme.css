@@ -4,8 +4,8 @@
     -fx-font-size: 12pt;
     -fx-font-family: "Consolas";
     -fx-font-weight: bold;
-    -fx-text-fill: yellow;
-    -fx-control-inner-background: derive(#1d1d1d,20%);
+    -fx-text-fill: black;
+    -fx-control-inner-background: #ffffff
 }
 
 .text-area {
@@ -14,4 +14,14 @@
     -fx-font-family: "Segoe UI Semibold";
     -fx-font-size: 10pt;
     -fx-padding: 5 5 5 5;
+}
+
+
+.background {
+    -fx-background-color: #f44336;
+    -fx-control-inner-background: #f44336;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 10pt;
+    -fx-padding: 5 5 5 5;
+
 }
